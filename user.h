@@ -15,3 +15,10 @@ typedef struct
   Fecha creado_en;
 
 }User;
+
+typedef struct
+{
+  User user;
+  Fecha fecha;
+
+}Login;
